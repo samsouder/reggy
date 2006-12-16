@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {match = id; }; 
+            CLASS = ReggyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mainWindow = NSWindow; 
+                matchAll = NSButton; 
+                matchCase = NSButton; 
+                matchMultiLine = NSButton; 
+                regexPattern = NSTextView; 
+                statusText = NSTextField; 
+                testingString = NSTextView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
