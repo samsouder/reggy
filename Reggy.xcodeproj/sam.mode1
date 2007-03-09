@@ -260,14 +260,14 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>E2644B35053B69B200211256</string>
 								<string>1CC0EA4004350EF90044410B</string>
 								<string>1CC0EA4004350EF90041110B</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>11</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -306,7 +306,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ReggyController.m</string>
+								<string>ReggyController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -314,22 +314,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ReggyController.m</string>
+										<string>ReggyController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>22DF509E0B33AC6B00F796BB</string>
+										<string>22D9078B0BA108D000DF0931</string>
 										<key>history</key>
 										<array>
 											<string>22AAF7C60A673A2A002FE5E5</string>
+											<string>22D907680BA1047400DF0931</string>
+											<string>22D907790BA1080600DF0931</string>
 											<string>2264D3310B326D42001FA13A</string>
-											<string>22DF50820B33ABEF00F796BB</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>22A617670A66B318004DAC52</string>
 											<string>22AAF79C0A6739A0002FE5E5</string>
 											<string>22AAF7C80A673A2A002FE5E5</string>
+											<string>22D9076A0BA1047400DF0931</string>
+											<string>22D9077A0BA1080600DF0931</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -387,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>22DF50990B33AC2200F796BB</string>
+				<string>22D9076D0BA1047400DF0931</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>22DF509A0B33AC2200F796BB</string>
+				<string>22D9076E0BA1047400DF0931</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -527,6 +530,7 @@
 	<array>
 		<string>2227DBB10A65C2BE00AD0849</string>
 		<string>/Users/sam/Misc Repo/reggy/trunk/Reggy.xcodeproj</string>
+		<string>1C0AD2B3069F1EA900FABCE6</string>
 	</array>
 	<key>WindowString</key>
 	<string>16 236 1241 779 0 0 1680 1028 </string>
@@ -608,7 +612,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2227DBB10A65C2BE00AD0849</string>
-				<string>22DF509D0B33AC6600F796BB</string>
+				<string>22D907750BA107F500DF0931</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -978,9 +982,9 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>22DF507D0B33ABD600F796BB</string>
+				<string>22D907760BA107F500DF0931</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>22DF507E0B33ABD600F796BB</string>
+				<string>22D907770BA107F500DF0931</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>
@@ -989,7 +993,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C0AD2B3069F1EA900FABCE6</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
