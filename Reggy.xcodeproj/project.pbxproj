@@ -14,6 +14,9 @@
 		22A61A3E0A66C510004DAC52 /* OgreKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22A61A160A66C4AD004DAC52 /* OgreKit.framework */; };
 		22A61A410A66C532004DAC52 /* OgreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A61A160A66C4AD004DAC52 /* OgreKit.framework */; };
 		22AAF7E60A67404B002FE5E5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22AAF7E50A67404B002FE5E5 /* Credits.rtf */; };
+		22C64DBC0BA4F3D000DC4C4A /* Reggy.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */; };
+		22C64EA10BA4FC4600DC4C4A /* ReggySuite.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = 22C64E9F0BA4FC4600DC4C4A /* ReggySuite.scriptSuite */; };
+		22C64EA20BA4FC4600DC4C4A /* ReggySuite.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = 22C64EA00BA4FC4600DC4C4A /* ReggySuite.scriptTerminology */; };
 		22F93FB10A65E6F8002339E4 /* ReggyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F93FB00A65E6F8002339E4 /* ReggyController.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -47,6 +50,9 @@
 		2283EF760A67D6A000B3EC50 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		22A61A160A66C4AD004DAC52 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreKit.framework; path = /Library/Frameworks/OgreKit.framework; sourceTree = "<absolute>"; };
 		22AAF7E50A67404B002FE5E5 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = Reggy.sdef; sourceTree = "<group>"; };
+		22C64E9F0BA4FC4600DC4C4A /* ReggySuite.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ReggySuite.scriptSuite; sourceTree = "<group>"; };
+		22C64EA00BA4FC4600DC4C4A /* ReggySuite.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ReggySuite.scriptTerminology; sourceTree = "<group>"; };
 		22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReggyController.h; sourceTree = "<group>"; };
 		22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReggyController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -144,6 +150,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				22C64E9F0BA4FC4600DC4C4A /* ReggySuite.scriptSuite */,
+				22C64EA00BA4FC4600DC4C4A /* ReggySuite.scriptTerminology */,
+				22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */,
 				2283EF760A67D6A000B3EC50 /* error.png */,
 				22AAF7E50A67404B002FE5E5 /* Credits.rtf */,
 				22410F670A6716CD0072CAA6 /* Reggy.icns */,
@@ -210,6 +219,9 @@
 				22410F680A6716CD0072CAA6 /* Reggy.icns in Resources */,
 				22AAF7E60A67404B002FE5E5 /* Credits.rtf in Resources */,
 				2283EF770A67D6A000B3EC50 /* error.png in Resources */,
+				22C64DBC0BA4F3D000DC4C4A /* Reggy.sdef in Resources */,
+				22C64EA10BA4FC4600DC4C4A /* ReggySuite.scriptSuite in Resources */,
+				22C64EA20BA4FC4600DC4C4A /* ReggySuite.scriptTerminology in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

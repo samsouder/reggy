@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Reggy">
+	<suite name="Reggy Suite" code="Regy" description="AppleScript commands and classes specific to Reggy.">
+		<class name="application" code="capp" description="Reggy&apos;s top-level object." plural="applications" inherits="NSCoreSuite.NSApplication">
+			<cocoa class="NSApplication"/>
+			<property name="regular expression" code="preg" description="The regular expression used to do the matching." type="text">
+				<cocoa key="regularExpression"/>
+			</property>
+			<property name="test string" code="ptes" description="The test string that matches based on the regular expression." type="text">
+				<cocoa key="testString"/>
+			</property>
+			<property name="match all" code="pmal" description="Should the regular expression match all occurances of the expression?" type="boolean">
+				<cocoa key="matchAll"/>
+			</property>
+			<property name="match case" code="pmcs" description="Should the regular expression be case sensitive?" type="boolean">
+				<cocoa key="matchCase"/>
+			</property>
+			<property name="match multiline" code="pmml" description="Should the regular expression match new lines by default?" type="boolean">
+				<cocoa key="matchMultiLine"/>
+			</property>
+		</class>
+	</suite>
+</dictionary>

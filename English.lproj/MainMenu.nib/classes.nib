@@ -7,12 +7,12 @@
             LANGUAGE = ObjC; 
             OUTLETS = {
                 mainWindow = NSWindow; 
-                matchAll = NSButton; 
-                matchCase = NSButton; 
-                matchMultiLine = NSButton; 
-                regexPattern = NSTextView; 
+                matchAllButton = NSButton; 
+                matchCaseButton = NSButton; 
+                matchMultiLineButton = NSButton; 
+                regexPatternField = NSTextView; 
                 statusText = NSTextField; 
-                testingString = NSTextView; 
+                testingStringField = NSTextView; 
             }; 
             SUPERCLASS = NSObject; 
         }
