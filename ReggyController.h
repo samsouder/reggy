@@ -6,30 +6,36 @@
 @interface ReggyController : NSObject
 {
 	IBOutlet NSWindow * mainWindow;
-    IBOutlet NSButton * matchAll;
-	IBOutlet NSButton * matchCase;
-	IBOutlet NSButton * matchMultiLine;
-    IBOutlet NSTextView * regexPattern;
+    IBOutlet NSButton * matchAllButton;
+	IBOutlet NSButton * matchCaseButton;
+	IBOutlet NSButton * matchMultiLineButton;
+    IBOutlet NSTextView * regexPatternField;
     IBOutlet NSTextField * statusText;
-    IBOutlet NSTextView * testingString;
+    IBOutlet NSTextView * testingStringField;
 	
-	BOOL _matchAll;
-	BOOL _matchCase;
-	BOOL _matchMultiLine;
-	BOOL _hideErrorImage;
+	BOOL matchAll;
+	BOOL matchCase;
+	BOOL matchMultiLine;
+	BOOL hideErrorImage;
 }
 
-- (BOOL) _matchAll;
-- (void) set_matchAll:(BOOL)yesOrNo;
+- (BOOL) matchAll;
+- (void) setMatchAll:(BOOL)yesOrNo;
 
-- (BOOL) _matchCase;
-- (void) set_matchCase:(BOOL)yesOrNo;
+- (BOOL) matchCase;
+- (void) setMatchCase:(BOOL)yesOrNo;
 
-- (BOOL) _matchMultiLine;
-- (void) set_matchMultiLine:(BOOL)yesOrNo;
+- (BOOL) matchMultiLine;
+- (void) setMatchMultiLine:(BOOL)yesOrNo;
 
-- (BOOL) _hideErrorImage;
-- (void) set_hideErrorImage:(BOOL)yesOrNo;
+- (BOOL) hideErrorImage;
+- (void) setHideErrorImage:(BOOL)yesOrNo;
+
+- (NSString *) regularExpression;
+- (void) setRegularExpression:(NSString *)newString;
+
+- (NSString *) testString;
+- (void) setTestString:(NSString *)newString;
 
 - (IBAction) match:(id)sender;
 @end

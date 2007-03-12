@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleEventCode</key>
+	<string>Regy</string>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>AppleEventCode</key>
+			<string>capp</string>
+			<key>Attributes</key>
+			<dict>
+				<key>matchAll</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>pmal</string>
+					<key>Type</key>
+					<string>NSNumber&lt;Bool&gt;</string>
+				</dict>
+				<key>matchCase</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>pmcs</string>
+					<key>Type</key>
+					<string>NSNumber&lt;Bool&gt;</string>
+				</dict>
+				<key>matchMultiLine</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>pmml</string>
+					<key>Type</key>
+					<string>NSNumber&lt;Bool&gt;</string>
+				</dict>
+				<key>regularExpression</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>preg</string>
+					<key>Type</key>
+					<string>NSString</string>
+				</dict>
+				<key>testString</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>ptes</string>
+					<key>Type</key>
+					<string>NSString</string>
+				</dict>
+			</dict>
+			<key>Superclass</key>
+			<string>NSCoreSuite.NSApplication</string>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>ReggySuite</string>
+	<key>UsedFeatures</key>
+	<array>
+		<string>UnnamedArguments</string>
+	</array>
+</dict>
+</plist>

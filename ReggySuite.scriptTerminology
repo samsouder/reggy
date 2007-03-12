@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>matchAll</key>
+				<dict>
+					<key>Description</key>
+					<string>Should the regular expression match all occurances of the expression?</string>
+					<key>Name</key>
+					<string>match all</string>
+				</dict>
+				<key>matchCase</key>
+				<dict>
+					<key>Description</key>
+					<string>Should the regular expression be case sensitive?</string>
+					<key>Name</key>
+					<string>match case</string>
+				</dict>
+				<key>matchMultiLine</key>
+				<dict>
+					<key>Description</key>
+					<string>Should the regular expression match new lines by default?</string>
+					<key>Name</key>
+					<string>match multiline</string>
+				</dict>
+				<key>regularExpression</key>
+				<dict>
+					<key>Description</key>
+					<string>The regular expression used to do the matching.</string>
+					<key>Name</key>
+					<string>regular expression</string>
+				</dict>
+				<key>testString</key>
+				<dict>
+					<key>Description</key>
+					<string>The test string that matches based on the regular expression.</string>
+					<key>Name</key>
+					<string>test string</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Reggy's top-level object.</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>AppleScript commands and classes specific to Reggy.</string>
+	<key>Name</key>
+	<string>Reggy Suite</string>
+</dict>
+</plist>
