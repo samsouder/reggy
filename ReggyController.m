@@ -1,16 +1,29 @@
 #import "ReggyController.h"
+#import "ReggyPrefsWindowController.h"
 
 @implementation ReggyController
 
 #pragma mark -
-#pragma mark init & awakeFromNib
+#pragma mark Initialization
++ (void) initialize
+{
+	NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+		@"Ruby", @"default_syntax",
+		@"YES", @"match_all",
+		@"NO", @"match_case",
+		@"YES", @"multiline",
+		[NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedHue:0.6 saturation:1.0 brightness:1.0 alpha:1.0]], @"match_color", nil];
+	
+	[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+}
+
 - (id) init
 {
 	self = [super init];
 	if (self != nil) {
-		[self setMatchAll:YES];
-		[self setMatchCase:NO];
-		[self setMatchMultiLine:YES];
+		[self setMatchAll:[[NSUserDefaults standardUserDefaults] boolForKey:@"match_all"]];
+		[self setMatchCase:[[NSUserDefaults standardUserDefaults] boolForKey:@"match_case"]];
+		[self setMatchMultiLine:[[NSUserDefaults standardUserDefaults] boolForKey:@"multiline"]];
 		[self setHideErrorImage:YES];
 	}
 	
@@ -24,9 +37,6 @@
 
 - (void) awakeFromNib
 {
-	// Note: I set up the regexPattern & testingString delegates to this controller object in IB
-	// Also Note: match* are bound to NSButtons in IB
-	
 	[mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
 	
 	[regexPatternField setToolTip:@"Regular Expression"];
@@ -123,21 +133,27 @@
 
 #pragma mark -
 #pragma mark Actions
+- (IBAction) openPreferencesWindow:(id)sender
+{
+	[[ReggyPrefsWindowController sharedPrefsWindowController] showWindow:nil];
+}
+
 - (IBAction) match:(id)sender
 {
-	//NSColor * lightBlueColor = [NSColor colorWithCalibratedRed:0.5 green:.5 blue:1.0 alpha:1.0];
-	NSColor * lightBlueColor = [NSColor colorWithCalibratedHue:0.6 saturation:1.0 brightness:1.0 alpha:1.0];
+	// NSColor * lightBlueColor = [NSColor colorWithCalibratedRed:0.5 green:.5 blue:1.0 alpha:1.0];
+	// NSColor * lightBlueColor = [NSColor colorWithCalibratedHue:0.6 saturation:1.0 brightness:1.0 alpha:1.0];
+	
 	NSRange totalRange;
 	unsigned int totalLength = [[testingStringField textStorage] length];
 	totalRange.location = 0;
 	totalRange.length = totalLength;
 	
 	// Remove all old colors
-	[[testingStringField textStorage] removeAttribute:NSForegroundColorAttributeName	range:totalRange];
+	[[testingStringField textStorage] removeAttribute:NSForegroundColorAttributeName range:totalRange];
 	
 	OGRegularExpression * regEx;
 	[OGRegularExpression setDefaultEscapeCharacter:@"\\"];
-	[OGRegularExpression setDefaultSyntax:OgreRubySyntax];
+	[OGRegularExpression setDefaultSyntax:[self syntaxForPreference:[[NSUserDefaults standardUserDefaults] stringForKey:@"default_syntax"]]];
 	
 	NS_DURING
 		// options: OgreFindNotEmptyOption | OgreCaptureGroupOption | OgreIgnoreCaseOption | OgreMultilineOption?
@@ -177,10 +193,10 @@
 			// Get matched range
 			NSRange	matchRange = [match rangeOfSubstringAtIndex:i];
 			
-			// Add new color ro matched range
+			// Add new color to matched range
 			//[[testingStringField textStorage] addAttribute:NSForegroundColorAttributeName value:lightBlueColor range:matchRange];
 			[[testingStringField textStorage] addAttribute:NSForegroundColorAttributeName
-												value:lightBlueColor
+												value:[NSUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"match_color"]]
 												range:matchRange];
 		}
 		
@@ -196,6 +212,70 @@
 		[statusText setStringValue:[NSString stringWithFormat:@"%d Matches Found", matchesRunThrough]];
 	else
 		[statusText setStringValue:@"1 Match Found"];
+}
+
+#pragma mark -
+#pragma mark Utilities
+- (int) syntaxForPreference:(NSString *)preference
+{
+	/*
+	 if(syntax == OgreSimpleMatchingSyntax)	return &OgrePrivateRubySyntax;
+	 if(syntax == OgrePOSIXBasicSyntax)		return &OgrePrivatePOSIXBasicSyntax;
+	 if(syntax == OgrePOSIXExtendedSyntax)	return &OgrePrivatePOSIXExtendedSyntax;
+	 if(syntax == OgreEmacsSyntax)			return &OgrePrivateEmacsSyntax;
+	 if(syntax == OgreGrepSyntax)			return &OgrePrivateGrepSyntax;
+	 if(syntax == OgreGNURegexSyntax)		return &OgrePrivateGNURegexSyntax;
+	 if(syntax == OgreJavaSyntax)			return &OgrePrivateJavaSyntax;
+	 if(syntax == OgrePerlSyntax)			return &OgrePrivatePerlSyntax;
+	 if(syntax == OgreRubySyntax)			return &OgrePrivateRubySyntax;
+	 */
+	// DEBUG
+	// NSLog(@"OgreSimpleMatchingSyntax = %d\nOgrePOSIXBasicSyntax = %d\nOgrePOSIXExtendedSyntax = %d\nOgreEmacsSyntax = %d\nOgreGrepSyntax = %d\nOgreGNURegexSyntax = %d\nOgreJavaSyntax = %d\nOgrePerlSyntax = %d\nOgreRubySyntax = %d", OgreSimpleMatchingSyntax, OgrePOSIXBasicSyntax, OgrePOSIXExtendedSyntax, OgreEmacsSyntax, OgreGrepSyntax, OgreGNURegexSyntax, OgreJavaSyntax, OgrePerlSyntax, OgreRubySyntax);
+	
+	int ogrekit_syntax = OgreSimpleMatchingSyntax;
+	
+	if ( [preference isEqualToString:@"POSIX Basic"] )
+	{
+		ogrekit_syntax = OgrePOSIXBasicSyntax;
+	}
+	else if ( [preference isEqualToString:@"POSIX Extended"] )
+	{
+		ogrekit_syntax = OgrePOSIXExtendedSyntax;
+	}
+	else if ( [preference isEqualToString:@"Ruby"] )
+	{
+		ogrekit_syntax = OgreRubySyntax;
+	}
+	else if ( [preference isEqualToString:@"Perl"] )
+	{
+		ogrekit_syntax = OgrePerlSyntax;
+	}
+	else if ( [preference isEqualToString:@"Java"] )
+	{
+		ogrekit_syntax = OgreJavaSyntax;
+	}
+	else if ( [preference isEqualToString:@"GNU"] )
+	{
+		ogrekit_syntax = OgreGNURegexSyntax;
+	}
+	else if ( [preference isEqualToString:@"Grep"] )
+	{
+		ogrekit_syntax = OgreGrepSyntax;
+	}
+	else if ( [preference isEqualToString:@"Emacs"] )
+	{
+		ogrekit_syntax = OgreEmacsSyntax;
+	}
+	else
+	{
+		ogrekit_syntax = OgreRubySyntax;
+	}
+	
+	// DEBUG
+	// NSLog(@"Getting syntax for preference: %@", preference);
+	// NSLog(@"Outcome: %d", ogrekit_syntax);
+	
+	return ogrekit_syntax;
 }
 
 @end

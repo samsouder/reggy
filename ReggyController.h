@@ -37,5 +37,8 @@
 - (NSString *) testString;
 - (void) setTestString:(NSString *)newString;
 
+- (IBAction) openPreferencesWindow:(id)sender;
 - (IBAction) match:(id)sender;
+
+- (int) syntaxForPreference:(NSString *)preference;
 @end

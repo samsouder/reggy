@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {
+            CLASS = DBPrefsWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = ReggyPrefsWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {advancedPrefsView = NSView; generalPrefsView = NSView; }; 
+            SUPERCLASS = DBPrefsWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

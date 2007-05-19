@@ -2,7 +2,7 @@
     IBClasses = (
         {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
         {
-            ACTIONS = {match = id; }; 
+            ACTIONS = {match = id; openPreferencesWindow = id; }; 
             CLASS = ReggyController; 
             LANGUAGE = ObjC; 
             OUTLETS = {

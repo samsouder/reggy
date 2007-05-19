@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		2227DBD50A65C37600AD0849 /* RBSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227DBD10A65C37600AD0849 /* RBSplitView.m */; };
 		2227DBD60A65C37600AD0849 /* RBSplitSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227DBD40A65C37600AD0849 /* RBSplitSubview.m */; };
+		223A62D00BC48B8D00DB54F9 /* DBPrefsWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 223A62CE0BC48B8D00DB54F9 /* DBPrefsWindowController.h */; };
+		223A62D10BC48B8D00DB54F9 /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223A62CF0BC48B8D00DB54F9 /* DBPrefsWindowController.m */; };
+		223A62D40BC48BBD00DB54F9 /* ReggyPrefsWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */; };
+		223A62D50BC48BBD00DB54F9 /* ReggyPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */; };
+		223A62E50BC48CF800DB54F9 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 223A62E40BC48CF800DB54F9 /* Preferences.nib */; };
+		223A62ED0BC4908800DB54F9 /* Updates.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 223A62E90BC4908800DB54F9 /* Updates.tiff */; };
+		223A62EE0BC4908800DB54F9 /* Colors.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 223A62EA0BC4908800DB54F9 /* Colors.tiff */; };
+		223A62EF0BC4908800DB54F9 /* Advanced.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A62EB0BC4908800DB54F9 /* Advanced.png */; };
+		223A62F00BC4908800DB54F9 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A62EC0BC4908800DB54F9 /* General.png */; };
 		22410F680A6716CD0072CAA6 /* Reggy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22410F670A6716CD0072CAA6 /* Reggy.icns */; };
 		2283EF770A67D6A000B3EC50 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 2283EF760A67D6A000B3EC50 /* error.png */; };
 		22A61A3E0A66C510004DAC52 /* OgreKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22A61A160A66C4AD004DAC52 /* OgreKit.framework */; };
@@ -32,6 +41,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				22A61A3E0A66C510004DAC52 /* OgreKit.framework in CopyFiles */,
+				223A62D00BC48B8D00DB54F9 /* DBPrefsWindowController.h in CopyFiles */,
+				223A62D40BC48BBD00DB54F9 /* ReggyPrefsWindowController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +57,15 @@
 		2227DBD20A65C37600AD0849 /* RBSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSplitView.h; sourceTree = "<group>"; };
 		2227DBD30A65C37600AD0849 /* RBSplitSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSplitSubview.h; sourceTree = "<group>"; };
 		2227DBD40A65C37600AD0849 /* RBSplitSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSplitSubview.m; sourceTree = "<group>"; };
+		223A62CE0BC48B8D00DB54F9 /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPrefsWindowController.h; sourceTree = "<group>"; };
+		223A62CF0BC48B8D00DB54F9 /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrefsWindowController.m; sourceTree = "<group>"; };
+		223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReggyPrefsWindowController.h; sourceTree = "<group>"; };
+		223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReggyPrefsWindowController.m; sourceTree = "<group>"; };
+		223A62E40BC48CF800DB54F9 /* Preferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Preferences.nib; sourceTree = "<group>"; };
+		223A62E90BC4908800DB54F9 /* Updates.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Updates.tiff; sourceTree = "<group>"; };
+		223A62EA0BC4908800DB54F9 /* Colors.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Colors.tiff; sourceTree = "<group>"; };
+		223A62EB0BC4908800DB54F9 /* Advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advanced.png; sourceTree = "<group>"; };
+		223A62EC0BC4908800DB54F9 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
 		22410F670A6716CD0072CAA6 /* Reggy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Reggy.icns; sourceTree = "<group>"; };
 		2283EF760A67D6A000B3EC50 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		22A61A160A66C4AD004DAC52 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreKit.framework; path = /Library/Frameworks/OgreKit.framework; sourceTree = "<absolute>"; };
@@ -80,9 +100,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				223A62CE0BC48B8D00DB54F9 /* DBPrefsWindowController.h */,
+				223A62CF0BC48B8D00DB54F9 /* DBPrefsWindowController.m */,
 				22AAF7940A673981002FE5E5 /* RBSplitView */,
 				22F93FAF0A65E6F8002339E4 /* ReggyController.h */,
 				22F93FB00A65E6F8002339E4 /* ReggyController.m */,
+				223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */,
+				223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -150,6 +174,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				223A62E90BC4908800DB54F9 /* Updates.tiff */,
+				223A62EA0BC4908800DB54F9 /* Colors.tiff */,
+				223A62EB0BC4908800DB54F9 /* Advanced.png */,
+				223A62EC0BC4908800DB54F9 /* General.png */,
 				22C64E9F0BA4FC4600DC4C4A /* ReggySuite.scriptSuite */,
 				22C64EA00BA4FC4600DC4C4A /* ReggySuite.scriptTerminology */,
 				22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */,
@@ -158,6 +186,7 @@
 				22410F670A6716CD0072CAA6 /* Reggy.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				223A62E40BC48CF800DB54F9 /* Preferences.nib */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 			);
 			name = Resources;
@@ -222,6 +251,11 @@
 				22C64DBC0BA4F3D000DC4C4A /* Reggy.sdef in Resources */,
 				22C64EA10BA4FC4600DC4C4A /* ReggySuite.scriptSuite in Resources */,
 				22C64EA20BA4FC4600DC4C4A /* ReggySuite.scriptTerminology in Resources */,
+				223A62E50BC48CF800DB54F9 /* Preferences.nib in Resources */,
+				223A62ED0BC4908800DB54F9 /* Updates.tiff in Resources */,
+				223A62EE0BC4908800DB54F9 /* Colors.tiff in Resources */,
+				223A62EF0BC4908800DB54F9 /* Advanced.png in Resources */,
+				223A62F00BC4908800DB54F9 /* General.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +270,8 @@
 				2227DBD50A65C37600AD0849 /* RBSplitView.m in Sources */,
 				2227DBD60A65C37600AD0849 /* RBSplitSubview.m in Sources */,
 				22F93FB10A65E6F8002339E4 /* ReggyController.m in Sources */,
+				223A62D10BC48B8D00DB54F9 /* DBPrefsWindowController.m in Sources */,
+				223A62D50BC48BBD00DB54F9 /* ReggyPrefsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
