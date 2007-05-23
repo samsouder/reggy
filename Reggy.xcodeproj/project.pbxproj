@@ -20,6 +20,8 @@
 		223A62F00BC4908800DB54F9 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A62EC0BC4908800DB54F9 /* General.png */; };
 		22410F680A6716CD0072CAA6 /* Reggy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22410F670A6716CD0072CAA6 /* Reggy.icns */; };
 		2283EF770A67D6A000B3EC50 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 2283EF760A67D6A000B3EC50 /* error.png */; };
+		229F24DB0C02A55300556CD2 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229F24DA0C02A55300556CD2 /* Sparkle.framework */; };
+		229F24F00C02A58500556CD2 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229F24DA0C02A55300556CD2 /* Sparkle.framework */; };
 		22A61A3E0A66C510004DAC52 /* OgreKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22A61A160A66C4AD004DAC52 /* OgreKit.framework */; };
 		22A61A410A66C532004DAC52 /* OgreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A61A160A66C4AD004DAC52 /* OgreKit.framework */; };
 		22AAF7E60A67404B002FE5E5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22AAF7E50A67404B002FE5E5 /* Credits.rtf */; };
@@ -40,6 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				229F24F00C02A58500556CD2 /* Sparkle.framework in CopyFiles */,
 				22A61A3E0A66C510004DAC52 /* OgreKit.framework in CopyFiles */,
 				223A62D00BC48B8D00DB54F9 /* DBPrefsWindowController.h in CopyFiles */,
 				223A62D40BC48BBD00DB54F9 /* ReggyPrefsWindowController.h in CopyFiles */,
@@ -68,6 +71,7 @@
 		223A62EC0BC4908800DB54F9 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
 		22410F670A6716CD0072CAA6 /* Reggy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Reggy.icns; sourceTree = "<group>"; };
 		2283EF760A67D6A000B3EC50 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		229F24DA0C02A55300556CD2 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		22A61A160A66C4AD004DAC52 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreKit.framework; path = /Library/Frameworks/OgreKit.framework; sourceTree = "<absolute>"; };
 		22AAF7E50A67404B002FE5E5 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = Reggy.sdef; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			files = (
 				22A61A410A66C532004DAC52 /* OgreKit.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				229F24DB0C02A55300556CD2 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +119,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				229F24DA0C02A55300556CD2 /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -308,8 +314,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Builds/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -338,8 +346,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Builds/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;

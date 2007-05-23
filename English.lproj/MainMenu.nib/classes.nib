@@ -15,6 +15,12 @@
                 testingStringField = NSTextView; 
             }; 
             SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
         }
     ); 
     IBVersion = 1; 

@@ -256,14 +256,18 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>1058C7A0FEA54F0111CA2CBB</string>
+								<string>1C37FBAC04509CD000000102</string>
+								<string>229F24F10C02A58A00556CD2</string>
+								<string>229F24F20C02A58A00556CD2</string>
 								<string>1CC0EA4004350EF90044410B</string>
 								<string>1CC0EA4004350EF90041110B</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
-									<integer>19</integer>
+									<integer>39</integer>
+									<integer>37</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -377,9 +381,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>22CD03580BFFBB33008F2908</string>
+				<string>229F24CD0C02A52C00556CD2</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>22CD03590BFFBB33008F2908</string>
+				<string>229F24CE0C02A52C00556CD2</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -513,14 +517,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>22D9078D0BA108E400DF0931</string>
-		<string>22CD035A0BFFBB33008F2908</string>
-		<string>22CD035B0BFFBB33008F2908</string>
-		<string>2227DBBD0A65C2D000AD0849</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>22CD02D00BFF9FB0008F2908</string>
-		<string>1C0AD2B3069F1EA900FABCE6</string>
-		<string>2227DBB10A65C2BE00AD0849</string>
 		<string>/Users/sam/Misc Repo/reggy/trunk/Reggy.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
