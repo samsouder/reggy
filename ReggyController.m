@@ -58,6 +58,7 @@
 - (void) setMatchAll:(BOOL)yesOrNo
 {
 	matchAll = yesOrNo;
+	[[NSUserDefaults standardUserDefaults] setBool:yesOrNo forKey:@"match_all"];
 	[self performSelector:@selector(match:)];
 }
 
@@ -68,6 +69,7 @@
 - (void) setMatchCase:(BOOL)yesOrNo
 {
 	matchCase = yesOrNo;
+	[[NSUserDefaults standardUserDefaults] setBool:yesOrNo forKey:@"match_case"];
 	[self performSelector:@selector(match:)];
 }
 
@@ -79,6 +81,7 @@
 - (void) setMatchMultiLine:(BOOL)yesOrNo
 {
 	matchMultiLine = yesOrNo;
+	[[NSUserDefaults standardUserDefaults] setBool:yesOrNo forKey:@"multiline"];
 	[self performSelector:@selector(match:)];
 }
 
@@ -129,6 +132,11 @@
 	} else {
 		return NO;
 	}
+}
+
+- (void) changeColor: (id)sender
+{
+	[self performSelector:@selector(match:)];
 }
 
 #pragma mark -

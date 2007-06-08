@@ -76,7 +76,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {682, 952}}";
 			sepNavSelRange = "{51, 11}";
-			sepNavVisRect = "{{0, 0}, {682, 821}}";
+			sepNavVisRect = "{{0, 60}, {682, 821}}";
 			sepNavWindowFrame = "{{38, 67}, {727, 935}}";
 		};
 	};
@@ -91,17 +91,17 @@
 	223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {682, 821}}";
-			sepNavSelRange = "{124, 0}";
+			sepNavSelRange = "{201, 0}";
 			sepNavVisRect = "{{0, 0}, {682, 821}}";
-			sepNavWindowFrame = "{{347, 75}, {727, 935}}";
+			sepNavWindowFrame = "{{517, 63}, {727, 935}}";
 		};
 	};
 	223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {682, 821}}";
-			sepNavSelRange = "{108, 0}";
+			sepNavSelRange = "{85, 0}";
 			sepNavVisRect = "{{0, 0}, {682, 821}}";
-			sepNavWindowFrame = "{{672, 63}, {727, 935}}";
+			sepNavWindowFrame = "{{732, 73}, {727, 935}}";
 		};
 	};
 	22A616230A668B27004DAC52 /* XCBreakpointsBucket */ = {
@@ -167,18 +167,18 @@
 	};
 	22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1374, 630}}";
-			sepNavSelRange = "{979, 0}";
-			sepNavVisRect = "{{0, 453}, {1374, 177}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 630}}";
+			sepNavSelRange = "{441, 14}";
+			sepNavVisRect = "{{0, 7}, {831, 602}}";
 			sepNavWindowFrame = "{{351, 144}, {876, 716}}";
 		};
 	};
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 4060}}";
-			sepNavSelRange = "{484, 0}";
-			sepNavVisRect = "{{0, 176}, {831, 602}}";
-			sepNavWindowFrame = "{{354, 147}, {876, 716}}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 4214}}";
+			sepNavSelRange = "{1752, 0}";
+			sepNavVisRect = "{{0, 734}, {781, 739}}";
+			sepNavWindowFrame = "{{451, 175}, {826, 853}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -264,8 +264,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 201499947;
-			PBXWorkspaceStateSaveDate = 201499947;
+			PBXPerProjectTemplateStateSaveDate = 202964367;
+			PBXWorkspaceStateSaveDate = 202964367;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
@@ -293,7 +293,7 @@
 	8D1107310486CEB800E47090 /* Info.plist */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {798, 851}}";
-			sepNavSelRange = "{751, 0}";
+			sepNavSelRange = "{949, 0}";
 			sepNavVisRect = "{{0, 0}, {798, 851}}";
 			sepNavWindowFrame = "{{15, 58}, {843, 965}}";
 		};

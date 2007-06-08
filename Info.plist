@@ -21,12 +21,14 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.1</string>
+	<string>1.2</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSAppleScriptEnabled</key>
 	<string>YES</string>
+	<key>SUFeedURL</key>
+	<string>http://reggyapp.com/appcast.xml</string> 
 </dict>
 </plist>
