@@ -37,7 +37,7 @@
 
 - (void) awakeFromNib
 {
-	[mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
+	// [mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
 	
 	[regexPatternField setToolTip:@"Regular Expression"];
 	[testingStringField setToolTip:@"Testing String"];

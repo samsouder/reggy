@@ -176,13 +176,13 @@
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {781, 4214}}";
-			sepNavSelRange = "{1752, 0}";
-			sepNavVisRect = "{{0, 734}, {781, 739}}";
+			sepNavSelRange = "{1081, 0}";
+			sepNavVisRect = "{{0, 385}, {781, 739}}";
 			sepNavWindowFrame = "{{451, 175}, {826, 853}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 2227DB9C0A65BA9F00AD0849 /* Reggy */;
 		activeTarget = 8D1107260486CEB800E47090 /* Reggy */;
 		addToTargets = (
@@ -264,8 +264,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 202964367;
-			PBXWorkspaceStateSaveDate = 202964367;
+			PBXPerProjectTemplateStateSaveDate = 203389682;
+			PBXWorkspaceStateSaveDate = 203389682;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
