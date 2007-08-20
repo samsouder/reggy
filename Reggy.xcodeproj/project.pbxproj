@@ -28,6 +28,7 @@
 		22C64DBC0BA4F3D000DC4C4A /* Reggy.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */; };
 		22C64EA10BA4FC4600DC4C4A /* ReggySuite.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = 22C64E9F0BA4FC4600DC4C4A /* ReggySuite.scriptSuite */; };
 		22C64EA20BA4FC4600DC4C4A /* ReggySuite.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = 22C64EA00BA4FC4600DC4C4A /* ReggySuite.scriptTerminology */; };
+		22EB0B750C79F5A8009E882A /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EB0B740C79F5A8009E882A /* plus-8.png */; };
 		22F93FB10A65E6F8002339E4 /* ReggyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F93FB00A65E6F8002339E4 /* ReggyController.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -77,6 +78,7 @@
 		22C64DBB0BA4F3D000DC4C4A /* Reggy.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = Reggy.sdef; sourceTree = "<group>"; };
 		22C64E9F0BA4FC4600DC4C4A /* ReggySuite.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ReggySuite.scriptSuite; sourceTree = "<group>"; };
 		22C64EA00BA4FC4600DC4C4A /* ReggySuite.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ReggySuite.scriptTerminology; sourceTree = "<group>"; };
+		22EB0B740C79F5A8009E882A /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
 		22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReggyController.h; sourceTree = "<group>"; };
 		22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReggyController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				22EB0B740C79F5A8009E882A /* plus-8.png */,
 				223A62E90BC4908800DB54F9 /* Updates.tiff */,
 				223A62EA0BC4908800DB54F9 /* Colors.tiff */,
 				223A62EB0BC4908800DB54F9 /* Advanced.png */,
@@ -262,6 +265,7 @@
 				223A62EE0BC4908800DB54F9 /* Colors.tiff in Resources */,
 				223A62EF0BC4908800DB54F9 /* Advanced.png in Resources */,
 				223A62F00BC4908800DB54F9 /* General.png in Resources */,
+				22EB0B750C79F5A8009E882A /* plus-8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,10 +310,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = ppc;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
