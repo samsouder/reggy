@@ -104,6 +104,11 @@
 			sepNavWindowFrame = "{{732, 73}, {727, 935}}";
 		};
 	};
+	2283EF760A67D6A000B3EC50 /* error.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{58, 50}, {1109, 823}}";
+		};
+	};
 	22A616230A668B27004DAC52 /* XCBreakpointsBucket */ = {
 		isa = XCBreakpointsBucket;
 		name = "Project Breakpoints";
@@ -138,33 +143,6 @@
 			sepNavWindowFrame = "{{383, 39}, {727, 935}}";
 		};
 	};
-	22D9076C0BA1047400DF0931 /* sam.pbxuser */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text;
-		name = sam.pbxuser;
-		path = "/Users/sam/Misc Repo/reggy/trunk/Reggy.xcodeproj/sam.pbxuser";
-		sourceTree = "<absolute>";
-	};
-	22D907790BA1080600DF0931 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 22D9076C0BA1047400DF0931 /* sam.pbxuser */;
-		name = "sam.pbxuser: 339";
-		rLen = 0;
-		rLoc = 9826;
-		rType = 0;
-		vrLen = 828;
-		vrLoc = 0;
-	};
-	22D9077A0BA1080600DF0931 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 22D9076C0BA1047400DF0931 /* sam.pbxuser */;
-		name = "sam.pbxuser: 339";
-		rLen = 0;
-		rLoc = 9826;
-		rType = 0;
-		vrLen = 828;
-		vrLoc = 0;
-	};
 	22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {831, 630}}";
@@ -182,7 +160,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 2227DB9C0A65BA9F00AD0849 /* Reggy */;
 		activeTarget = 8D1107260486CEB800E47090 /* Reggy */;
 		addToTargets = (
@@ -264,14 +242,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 209141973;
-			PBXWorkspaceStateSaveDate = 209141973;
+			PBXPerProjectTemplateStateSaveDate = 209315658;
+			PBXWorkspaceStateSaveDate = 209315658;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
 			22AAF7C80A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C80A673A2A002FE5E5 /* PBXTextBookmark */;
-			22D907790BA1080600DF0931 /* PBXTextBookmark */ = 22D907790BA1080600DF0931 /* PBXTextBookmark */;
-			22D9077A0BA1080600DF0931 /* PBXTextBookmark */ = 22D9077A0BA1080600DF0931 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2227DBAB0A65BAA600AD0849 /* Source Control */;
 		userBuildSettings = {
