@@ -76,7 +76,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {682, 952}}";
 			sepNavSelRange = "{51, 11}";
-			sepNavVisRect = "{{0, 60}, {682, 821}}";
+			sepNavVisRect = "{{0, 19}, {682, 821}}";
 			sepNavWindowFrame = "{{38, 67}, {727, 935}}";
 		};
 	};
@@ -264,8 +264,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 203389682;
-			PBXWorkspaceStateSaveDate = 203389682;
+			PBXPerProjectTemplateStateSaveDate = 209141973;
+			PBXWorkspaceStateSaveDate = 209141973;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
