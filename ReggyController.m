@@ -37,7 +37,15 @@
 
 - (void) awakeFromNib
 {
-	[mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
+	// [mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
+	
+	// Add a toolbar
+	NSToolbar *toolbar = [[NSToolbar alloc] initWithIdentifier:@"styled_toolbar"];
+	[toolbar setDelegate:self];
+	[toolbar setVisible:YES];
+	[toolbar setAllowsUserCustomization:YES];
+	[mainWindow setToolbar:toolbar];
+	[toolbar release];
 	
 	[regexPatternField setToolTip:@"Regular Expression"];
 	[testingStringField setToolTip:@"Testing String"];
@@ -47,6 +55,29 @@
 	
 	// Select all the text in the regexPattern NSTextView so it's easy to just start typing
 	[regexPatternField selectAll:self];
+}
+
+#pragma mark -
+#pragma mark Toolbar
+- (NSArray *)toolbarDefaultItemIdentifiers:(NSToolbar *)toolbar
+{
+	return [NSArray arrayWithObjects:@"Tool", @"Button", @"Item", nil];
+}
+
+- (NSArray *)toolbarAllowedItemIdentifiers:(NSToolbar *)toolbar
+{
+	return [NSArray arrayWithObjects:@"TestItem", @"TestItem2", @"TestItem3", nil];
+}
+
+- (NSToolbarItem *)toolbar:(NSToolbar *)toolbar itemForItemIdentifier:(NSString *)itemIdentifier willBeInsertedIntoToolbar:(BOOL)flag
+{
+	NSToolbarItem *item = [[NSToolbarItem alloc] initWithItemIdentifier:@"ToolbarItem"];
+	[item setLabel:@"Toolbar Item"];
+	[item setImage:[NSImage imageNamed:@"NSApplicationIcon"]];
+	[item setTarget:mainWindow];
+	[item setAction:@selector(windowDidResize:)];
+	
+    return [item autorelease];
 }
 
 #pragma mark -
