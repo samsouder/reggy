@@ -90,18 +90,18 @@
 	};
 	223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {682, 821}}";
-			sepNavSelRange = "{201, 0}";
-			sepNavVisRect = "{{0, 0}, {682, 821}}";
-			sepNavWindowFrame = "{{517, 63}, {727, 935}}";
+			sepNavIntBoundsRect = "{{0, 0}, {682, 764}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRect = "{{0, 0}, {682, 764}}";
+			sepNavWindowFrame = "{{569, 0}, {727, 878}}";
 		};
 	};
 	223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {682, 821}}";
-			sepNavSelRange = "{85, 0}";
-			sepNavVisRect = "{{0, 0}, {682, 821}}";
-			sepNavWindowFrame = "{{732, 73}, {727, 935}}";
+			sepNavIntBoundsRect = "{{0, 0}, {682, 764}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRect = "{{0, 0}, {682, 764}}";
+			sepNavWindowFrame = "{{517, 0}, {727, 878}}";
 		};
 	};
 	227109E70C7DE24A00538922 /* SSToolbarResizeView.h */ = {
@@ -180,17 +180,17 @@
 	};
 	22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 675}}";
-			sepNavSelRange = "{441, 14}";
-			sepNavVisRect = "{{0, 0}, {831, 602}}";
-			sepNavWindowFrame = "{{351, 144}, {876, 716}}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 739}}";
+			sepNavSelRange = "{478, 0}";
+			sepNavVisRect = "{{0, 0}, {781, 739}}";
+			sepNavWindowFrame = "{{451, 25}, {826, 853}}";
 		};
 	};
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {781, 4995}}";
-			sepNavSelRange = "{1085, 0}";
-			sepNavVisRect = "{{0, 267}, {781, 739}}";
+			sepNavSelRange = "{570, 0}";
+			sepNavVisRect = "{{0, 88}, {781, 739}}";
 			sepNavWindowFrame = "{{451, 25}, {826, 853}}";
 		};
 	};
@@ -277,8 +277,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 209574746;
-			PBXWorkspaceStateSaveDate = 209574746;
+			PBXPerProjectTemplateStateSaveDate = 209578164;
+			PBXWorkspaceStateSaveDate = 209578164;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;

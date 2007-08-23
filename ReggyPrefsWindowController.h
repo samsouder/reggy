@@ -6,4 +6,6 @@
 	IBOutlet NSView * advancedPrefsView;
 }
 
+- (IBAction)openRegularExpressionHelpInBrowser:(id)sender;
+
 @end
