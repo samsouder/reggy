@@ -19,6 +19,13 @@
 		223A62EF0BC4908800DB54F9 /* Advanced.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A62EB0BC4908800DB54F9 /* Advanced.png */; };
 		223A62F00BC4908800DB54F9 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 223A62EC0BC4908800DB54F9 /* General.png */; };
 		22410F680A6716CD0072CAA6 /* Reggy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22410F670A6716CD0072CAA6 /* Reggy.icns */; };
+		227109E90C7DE24A00538922 /* SSToolbarResizeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 227109E70C7DE24A00538922 /* SSToolbarResizeView.h */; };
+		227109EA0C7DE24A00538922 /* SSToolbarResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 227109E80C7DE24A00538922 /* SSToolbarResizeView.m */; };
+		228223040C7DD7E300A554BD /* NSBezierPath_SSAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */; };
+		228223050C7DD7E400A554BD /* NSBezierPath_SSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */; };
+		228223060C7DD7E400A554BD /* SSToolbarView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228223020C7DD7E300A554BD /* SSToolbarView.h */; };
+		228223070C7DD7E400A554BD /* SSToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 228223030C7DD7E300A554BD /* SSToolbarView.m */; };
+		228223240C7DD8C800A554BD /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228223230C7DD8C800A554BD /* Quartz.framework */; };
 		2283EF770A67D6A000B3EC50 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 2283EF760A67D6A000B3EC50 /* error.png */; };
 		229F24DB0C02A55300556CD2 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229F24DA0C02A55300556CD2 /* Sparkle.framework */; };
 		229F24F00C02A58500556CD2 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229F24DA0C02A55300556CD2 /* Sparkle.framework */; };
@@ -47,6 +54,9 @@
 				22A61A3E0A66C510004DAC52 /* OgreKit.framework in CopyFiles */,
 				223A62D00BC48B8D00DB54F9 /* DBPrefsWindowController.h in CopyFiles */,
 				223A62D40BC48BBD00DB54F9 /* ReggyPrefsWindowController.h in CopyFiles */,
+				228223040C7DD7E300A554BD /* NSBezierPath_SSAdditions.h in CopyFiles */,
+				228223060C7DD7E400A554BD /* SSToolbarView.h in CopyFiles */,
+				227109E90C7DE24A00538922 /* SSToolbarResizeView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +81,13 @@
 		223A62EB0BC4908800DB54F9 /* Advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advanced.png; sourceTree = "<group>"; };
 		223A62EC0BC4908800DB54F9 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
 		22410F670A6716CD0072CAA6 /* Reggy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Reggy.icns; sourceTree = "<group>"; };
+		227109E70C7DE24A00538922 /* SSToolbarResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToolbarResizeView.h; sourceTree = "<group>"; };
+		227109E80C7DE24A00538922 /* SSToolbarResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToolbarResizeView.m; sourceTree = "<group>"; };
+		228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBezierPath_SSAdditions.h; sourceTree = "<group>"; };
+		228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBezierPath_SSAdditions.m; sourceTree = "<group>"; };
+		228223020C7DD7E300A554BD /* SSToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToolbarView.h; sourceTree = "<group>"; };
+		228223030C7DD7E300A554BD /* SSToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToolbarView.m; sourceTree = "<group>"; };
+		228223230C7DD8C800A554BD /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		2283EF760A67D6A000B3EC50 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		229F24DA0C02A55300556CD2 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		22A61A160A66C4AD004DAC52 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreKit.framework; path = /Library/Frameworks/OgreKit.framework; sourceTree = "<absolute>"; };
@@ -98,6 +115,7 @@
 				22A61A410A66C532004DAC52 /* OgreKit.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				229F24DB0C02A55300556CD2 /* Sparkle.framework in Frameworks */,
+				228223240C7DD8C800A554BD /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +125,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */,
+				228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */,
+				228223020C7DD7E300A554BD /* SSToolbarView.h */,
+				228223030C7DD7E300A554BD /* SSToolbarView.m */,
 				223A62CE0BC48B8D00DB54F9 /* DBPrefsWindowController.h */,
 				223A62CF0BC48B8D00DB54F9 /* DBPrefsWindowController.m */,
 				22AAF7940A673981002FE5E5 /* RBSplitView */,
@@ -114,6 +136,8 @@
 				22F93FB00A65E6F8002339E4 /* ReggyController.m */,
 				223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */,
 				223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */,
+				227109E70C7DE24A00538922 /* SSToolbarResizeView.h */,
+				227109E80C7DE24A00538922 /* SSToolbarResizeView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -204,6 +228,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				228223230C7DD8C800A554BD /* Quartz.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -282,6 +307,9 @@
 				22F93FB10A65E6F8002339E4 /* ReggyController.m in Sources */,
 				223A62D10BC48B8D00DB54F9 /* DBPrefsWindowController.m in Sources */,
 				223A62D50BC48BBD00DB54F9 /* ReggyPrefsWindowController.m in Sources */,
+				228223050C7DD7E400A554BD /* NSBezierPath_SSAdditions.m in Sources */,
+				228223070C7DD7E400A554BD /* SSToolbarView.m in Sources */,
+				227109EA0C7DE24A00538922 /* SSToolbarResizeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

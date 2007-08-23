@@ -37,7 +37,7 @@
 
 - (void) awakeFromNib
 {
-	// [mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
+	[mainWindow setBackgroundColor:[NSColor colorWithCalibratedRed:0.0 green:0.0 blue:0.0 alpha:1.0]];
 	
 	// Add a toolbar
 	NSToolbar *toolbar = [[NSToolbar alloc] initWithIdentifier:@"styled_toolbar"];

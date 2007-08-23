@@ -16,6 +16,8 @@
             }; 
             SUPERCLASS = NSObject; 
         }, 
+        {CLASS = SSToolbarResizeView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = SSToolbarView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
         {
             ACTIONS = {checkForUpdates = id; }; 
             CLASS = SUUpdater; 

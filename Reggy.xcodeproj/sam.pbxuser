@@ -104,6 +104,46 @@
 			sepNavWindowFrame = "{{732, 73}, {727, 935}}";
 		};
 	};
+	227109E70C7DE24A00538922 /* SSToolbarResizeView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 764}}";
+			sepNavSelRange = "{350, 0}";
+			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavWindowFrame = "{{449, 0}, {895, 878}}";
+		};
+	};
+	227109E80C7DE24A00538922 /* SSToolbarResizeView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 780}}";
+			sepNavSelRange = "{301, 0}";
+			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavWindowFrame = "{{449, 0}, {895, 878}}";
+		};
+	};
+	228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 795}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavWindowFrame = "{{58, -5}, {895, 878}}";
+		};
+	};
+	228223020C7DD7E300A554BD /* SSToolbarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 764}}";
+			sepNavSelRange = "{172, 0}";
+			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavWindowFrame = "{{62, 0}, {895, 878}}";
+		};
+	};
+	228223030C7DD7E300A554BD /* SSToolbarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 764}}";
+			sepNavSelRange = "{593, 0}";
+			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavWindowFrame = "{{62, 0}, {895, 878}}";
+		};
+	};
 	22A616230A668B27004DAC52 /* XCBreakpointsBucket */ = {
 		isa = XCBreakpointsBucket;
 		name = "Project Breakpoints";
@@ -149,9 +189,9 @@
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {781, 4995}}";
-			sepNavSelRange = "{934, 733}";
-			sepNavVisRect = "{{0, 324}, {781, 739}}";
-			sepNavWindowFrame = "{{451, 175}, {826, 853}}";
+			sepNavSelRange = "{1085, 0}";
+			sepNavVisRect = "{{0, 267}, {781, 739}}";
+			sepNavWindowFrame = "{{451, 25}, {826, 853}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -174,7 +214,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					340,
+					363,
 					20,
 					48,
 					43,
@@ -237,8 +277,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 209529247;
-			PBXWorkspaceStateSaveDate = 209529247;
+			PBXPerProjectTemplateStateSaveDate = 209574746;
+			PBXWorkspaceStateSaveDate = 209574746;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
