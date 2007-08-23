@@ -21,6 +21,9 @@
 		22410F680A6716CD0072CAA6 /* Reggy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22410F670A6716CD0072CAA6 /* Reggy.icns */; };
 		227109E90C7DE24A00538922 /* SSToolbarResizeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 227109E70C7DE24A00538922 /* SSToolbarResizeView.h */; };
 		227109EA0C7DE24A00538922 /* SSToolbarResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 227109E80C7DE24A00538922 /* SSToolbarResizeView.m */; };
+		227A70EE0C7E2AA60018FF35 /* itunes_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 227A70ED0C7E2AA50018FF35 /* itunes_buttons.png */; };
+		227A70F90C7E33D50018FF35 /* drawer_toggle_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 227A70F70C7E33D50018FF35 /* drawer_toggle_alt.png */; };
+		227A70FA0C7E33D50018FF35 /* drawer_toggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 227A70F80C7E33D50018FF35 /* drawer_toggle.png */; };
 		228223040C7DD7E300A554BD /* NSBezierPath_SSAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */; };
 		228223050C7DD7E400A554BD /* NSBezierPath_SSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */; };
 		228223060C7DD7E400A554BD /* SSToolbarView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228223020C7DD7E300A554BD /* SSToolbarView.h */; };
@@ -83,6 +86,9 @@
 		22410F670A6716CD0072CAA6 /* Reggy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Reggy.icns; sourceTree = "<group>"; };
 		227109E70C7DE24A00538922 /* SSToolbarResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToolbarResizeView.h; sourceTree = "<group>"; };
 		227109E80C7DE24A00538922 /* SSToolbarResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToolbarResizeView.m; sourceTree = "<group>"; };
+		227A70ED0C7E2AA50018FF35 /* itunes_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_buttons.png; sourceTree = "<group>"; };
+		227A70F70C7E33D50018FF35 /* drawer_toggle_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawer_toggle_alt.png; sourceTree = "<group>"; };
+		227A70F80C7E33D50018FF35 /* drawer_toggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawer_toggle.png; sourceTree = "<group>"; };
 		228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBezierPath_SSAdditions.h; sourceTree = "<group>"; };
 		228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBezierPath_SSAdditions.m; sourceTree = "<group>"; };
 		228223020C7DD7E300A554BD /* SSToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToolbarView.h; sourceTree = "<group>"; };
@@ -206,6 +212,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				227A70F70C7E33D50018FF35 /* drawer_toggle_alt.png */,
+				227A70F80C7E33D50018FF35 /* drawer_toggle.png */,
+				227A70ED0C7E2AA50018FF35 /* itunes_buttons.png */,
 				22EB0B740C79F5A8009E882A /* plus-8.png */,
 				223A62E90BC4908800DB54F9 /* Updates.tiff */,
 				223A62EA0BC4908800DB54F9 /* Colors.tiff */,
@@ -291,6 +300,9 @@
 				223A62EF0BC4908800DB54F9 /* Advanced.png in Resources */,
 				223A62F00BC4908800DB54F9 /* General.png in Resources */,
 				22EB0B750C79F5A8009E882A /* plus-8.png in Resources */,
+				227A70EE0C7E2AA60018FF35 /* itunes_buttons.png in Resources */,
+				227A70F90C7E33D50018FF35 /* drawer_toggle_alt.png in Resources */,
+				227A70FA0C7E33D50018FF35 /* drawer_toggle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

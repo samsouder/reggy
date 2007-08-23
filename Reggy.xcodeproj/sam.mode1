@@ -262,6 +262,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>16</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -376,9 +377,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>22296D5B0C7DE8BB00649B0E</string>
+				<string>227A70E70C7E26AA0018FF35</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>22296D5C0C7DE8BB00649B0E</string>
+				<string>227A70E80C7E26AA0018FF35</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -533,14 +534,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ReggyPrefsWindowController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -596,7 +595,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2227DBB10A65C2BE00AD0849</string>
-				<string>22296D7B0C7DEC6A00649B0E</string>
+				<string>227A70E90C7E26AA0018FF35</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -966,9 +965,9 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>22296D5D0C7DE8BB00649B0E</string>
+				<string>227A70EA0C7E26AA0018FF35</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>22296D5E0C7DE8BB00649B0E</string>
+				<string>227A70EB0C7E26AA0018FF35</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>
