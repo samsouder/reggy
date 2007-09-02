@@ -8,6 +8,14 @@
 			sepNavWindowFrame = "{{15, 51}, {915, 822}}";
 		};
 	};
+	2213519C0C8A6B3C004E47B6 /* ReggyController_Toolbar.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 1920}}";
+			sepNavSelRange = "{2521, 0}";
+			sepNavVisRect = "{{0, 991}, {579, 194}}";
+			sepNavWindowFrame = "{{78, 93}, {1161, 935}}";
+		};
+	};
 	2227DB9C0A65BA9F00AD0849 /* Reggy */ = {
 		isa = PBXExecutable;
 		activeArgIndex = 2147483647;
@@ -54,6 +62,7 @@
 			sepNavIntBoundsRect = "{{0, 0}, {986, 1224}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRect = "{{0, 0}, {986, 400}}";
+			sepNavWindowFrame = "{{58, 88}, {1161, 935}}";
 		};
 	};
 	2227DBD20A65C37600AD0849 /* RBSplitView.h */ = {
@@ -74,17 +83,17 @@
 	};
 	223A62CE0BC48B8D00DB54F9 /* DBPrefsWindowController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {682, 952}}";
-			sepNavSelRange = "{51, 11}";
-			sepNavVisRect = "{{0, 60}, {682, 821}}";
+			sepNavIntBoundsRect = "{{0, 0}, {682, 1020}}";
+			sepNavSelRange = "{35, 0}";
+			sepNavVisRect = "{{0, 199}, {682, 821}}";
 			sepNavWindowFrame = "{{38, 67}, {727, 935}}";
 		};
 	};
 	223A62CF0BC48B8D00DB54F9 /* DBPrefsWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {682, 5586}}";
-			sepNavSelRange = "{230, 0}";
-			sepNavVisRect = "{{0, 0}, {682, 821}}";
+			sepNavIntBoundsRect = "{{0, 0}, {682, 5985}}";
+			sepNavSelRange = "{3157, 128}";
+			sepNavVisRect = "{{0, 1806}, {682, 821}}";
 			sepNavWindowFrame = "{{15, 88}, {727, 935}}";
 		};
 	};
@@ -115,16 +124,16 @@
 	227109E80C7DE24A00538922 /* SSToolbarResizeView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {850, 780}}";
-			sepNavSelRange = "{301, 0}";
-			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavSelRange = "{526, 0}";
+			sepNavVisRect = "{{0, 9}, {850, 764}}";
 			sepNavWindowFrame = "{{449, 0}, {895, 878}}";
 		};
 	};
 	228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {850, 795}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRect = "{{0, 0}, {850, 764}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRect = "{{0, 8}, {850, 764}}";
 			sepNavWindowFrame = "{{58, -5}, {895, 878}}";
 		};
 	};
@@ -139,7 +148,7 @@
 	228223030C7DD7E300A554BD /* SSToolbarView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {850, 764}}";
-			sepNavSelRange = "{593, 0}";
+			sepNavSelRange = "{709, 0}";
 			sepNavVisRect = "{{0, 0}, {850, 764}}";
 			sepNavWindowFrame = "{{62, 0}, {895, 878}}";
 		};
@@ -173,25 +182,25 @@
 	22AAF7E50A67404B002FE5E5 /* Credits.rtf */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {682, 821}}";
-			sepNavSelRange = "{303, 0}";
+			sepNavSelRange = "{59, 0}";
 			sepNavVisRect = "{{0, 0}, {682, 821}}";
 			sepNavWindowFrame = "{{383, 39}, {727, 935}}";
 		};
 	};
 	22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 739}}";
-			sepNavSelRange = "{478, 0}";
-			sepNavVisRect = "{{0, 0}, {781, 739}}";
-			sepNavWindowFrame = "{{451, 25}, {826, 853}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 821}}";
+			sepNavSelRange = "{446, 10}";
+			sepNavVisRect = "{{0, 0}, {1116, 821}}";
+			sepNavWindowFrame = "{{227, 93}, {1161, 935}}";
 		};
 	};
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 4995}}";
-			sepNavSelRange = "{570, 0}";
-			sepNavVisRect = "{{0, 88}, {781, 739}}";
-			sepNavWindowFrame = "{{451, 25}, {826, 853}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 4920}}";
+			sepNavSelRange = "{7308, 0}";
+			sepNavVisRect = "{{0, 0}, {1116, 821}}";
+			sepNavWindowFrame = "{{227, 93}, {1161, 935}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -277,8 +286,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 209593998;
-			PBXWorkspaceStateSaveDate = 209593998;
+			PBXPerProjectTemplateStateSaveDate = 210395669;
+			PBXWorkspaceStateSaveDate = 210395669;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;

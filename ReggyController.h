@@ -6,16 +6,19 @@
 @interface ReggyController : NSObject
 {
 	IBOutlet NSWindow * mainWindow;
+	IBOutlet NSPanel * matchInfoPanel;
     IBOutlet NSButton * matchAllButton;
 	IBOutlet NSButton * matchCaseButton;
 	IBOutlet NSButton * matchMultiLineButton;
     IBOutlet NSTextView * regexPatternField;
     IBOutlet NSTextField * statusText;
     IBOutlet NSTextView * testingStringField;
+	IBOutlet NSTextView * matchInfoText;
 	
 	BOOL matchAll;
 	BOOL matchCase;
 	BOOL matchMultiLine;
+	BOOL colorGroups;
 	BOOL hideErrorImage;
 }
 
@@ -28,6 +31,9 @@
 - (BOOL) matchMultiLine;
 - (void) setMatchMultiLine:(BOOL)yesOrNo;
 
+- (BOOL) colorGroups;
+- (void) setColorGroups:(BOOL)yesOrNo;
+
 - (BOOL) hideErrorImage;
 - (void) setHideErrorImage:(BOOL)yesOrNo;
 
@@ -37,6 +43,8 @@
 - (NSString *) testString;
 - (void) setTestString:(NSString *)newString;
 
+- (IBAction) openMatchInfoPanel:(id)sender;
+- (IBAction) clearMatchInfoText:(id)sender;
 - (IBAction) openPreferencesWindow:(id)sender;
 - (IBAction) match:(id)sender;
 

@@ -2,13 +2,20 @@
     IBClasses = (
         {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
         {
-            ACTIONS = {match = id; openPreferencesWindow = id; }; 
+            ACTIONS = {
+                clearMatchInfoText = id; 
+                match = id; 
+                openMatchInfoPanel = id; 
+                openPreferencesWindow = id; 
+            }; 
             CLASS = ReggyController; 
             LANGUAGE = ObjC; 
             OUTLETS = {
                 mainWindow = NSWindow; 
                 matchAllButton = NSButton; 
                 matchCaseButton = NSButton; 
+                matchInfoPanel = NSPanel; 
+                matchInfoText = NSTextView; 
                 matchMultiLineButton = NSButton; 
                 regexPatternField = NSTextView; 
                 statusText = NSTextField; 

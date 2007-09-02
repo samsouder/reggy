@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2213519D0C8A6B3C004E47B6 /* ReggyController_Toolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2213519C0C8A6B3C004E47B6 /* ReggyController_Toolbar.m */; };
+		221351E40C8A75E7004E47B6 /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 221351DF0C8A75E7004E47B6 /* Add.tiff */; };
+		221351E50C8A75E7004E47B6 /* Get Info.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 221351E00C8A75E7004E47B6 /* Get Info.tiff */; };
+		221351E60C8A75E7004E47B6 /* LinkBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 221351E10C8A75E7004E47B6 /* LinkBack.tiff */; };
+		221351E70C8A75E7004E47B6 /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 221351E20C8A75E7004E47B6 /* Play.tiff */; };
+		221351E80C8A75E7004E47B6 /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 221351E30C8A75E7004E47B6 /* Remove.tiff */; };
 		2227DBD50A65C37600AD0849 /* RBSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227DBD10A65C37600AD0849 /* RBSplitView.m */; };
 		2227DBD60A65C37600AD0849 /* RBSplitSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227DBD40A65C37600AD0849 /* RBSplitSubview.m */; };
 		223A62D00BC48B8D00DB54F9 /* DBPrefsWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 223A62CE0BC48B8D00DB54F9 /* DBPrefsWindowController.h */; };
@@ -21,9 +27,6 @@
 		22410F680A6716CD0072CAA6 /* Reggy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22410F670A6716CD0072CAA6 /* Reggy.icns */; };
 		227109E90C7DE24A00538922 /* SSToolbarResizeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 227109E70C7DE24A00538922 /* SSToolbarResizeView.h */; };
 		227109EA0C7DE24A00538922 /* SSToolbarResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 227109E80C7DE24A00538922 /* SSToolbarResizeView.m */; };
-		227A70EE0C7E2AA60018FF35 /* itunes_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 227A70ED0C7E2AA50018FF35 /* itunes_buttons.png */; };
-		227A70F90C7E33D50018FF35 /* drawer_toggle_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 227A70F70C7E33D50018FF35 /* drawer_toggle_alt.png */; };
-		227A70FA0C7E33D50018FF35 /* drawer_toggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 227A70F80C7E33D50018FF35 /* drawer_toggle.png */; };
 		228223040C7DD7E300A554BD /* NSBezierPath_SSAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */; };
 		228223050C7DD7E400A554BD /* NSBezierPath_SSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */; };
 		228223060C7DD7E400A554BD /* SSToolbarView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 228223020C7DD7E300A554BD /* SSToolbarView.h */; };
@@ -69,6 +72,12 @@
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2213519C0C8A6B3C004E47B6 /* ReggyController_Toolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReggyController_Toolbar.m; sourceTree = "<group>"; };
+		221351DF0C8A75E7004E47B6 /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Add.tiff; sourceTree = "<group>"; };
+		221351E00C8A75E7004E47B6 /* Get Info.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Get Info.tiff"; sourceTree = "<group>"; };
+		221351E10C8A75E7004E47B6 /* LinkBack.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LinkBack.tiff; sourceTree = "<group>"; };
+		221351E20C8A75E7004E47B6 /* Play.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Play.tiff; sourceTree = "<group>"; };
+		221351E30C8A75E7004E47B6 /* Remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Remove.tiff; sourceTree = "<group>"; };
 		2227DBD00A65C37600AD0849 /* RBSplitViewPrivateDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSplitViewPrivateDefines.h; sourceTree = "<group>"; };
 		2227DBD10A65C37600AD0849 /* RBSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSplitView.m; sourceTree = "<group>"; };
 		2227DBD20A65C37600AD0849 /* RBSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSplitView.h; sourceTree = "<group>"; };
@@ -86,9 +95,6 @@
 		22410F670A6716CD0072CAA6 /* Reggy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Reggy.icns; sourceTree = "<group>"; };
 		227109E70C7DE24A00538922 /* SSToolbarResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToolbarResizeView.h; sourceTree = "<group>"; };
 		227109E80C7DE24A00538922 /* SSToolbarResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToolbarResizeView.m; sourceTree = "<group>"; };
-		227A70ED0C7E2AA50018FF35 /* itunes_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_buttons.png; sourceTree = "<group>"; };
-		227A70F70C7E33D50018FF35 /* drawer_toggle_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawer_toggle_alt.png; sourceTree = "<group>"; };
-		227A70F80C7E33D50018FF35 /* drawer_toggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawer_toggle.png; sourceTree = "<group>"; };
 		228223000C7DD7E300A554BD /* NSBezierPath_SSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBezierPath_SSAdditions.h; sourceTree = "<group>"; };
 		228223010C7DD7E300A554BD /* NSBezierPath_SSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBezierPath_SSAdditions.m; sourceTree = "<group>"; };
 		228223020C7DD7E300A554BD /* SSToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToolbarView.h; sourceTree = "<group>"; };
@@ -140,6 +146,7 @@
 				22AAF7940A673981002FE5E5 /* RBSplitView */,
 				22F93FAF0A65E6F8002339E4 /* ReggyController.h */,
 				22F93FB00A65E6F8002339E4 /* ReggyController.m */,
+				2213519C0C8A6B3C004E47B6 /* ReggyController_Toolbar.m */,
 				223A62D20BC48BBD00DB54F9 /* ReggyPrefsWindowController.h */,
 				223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */,
 				227109E70C7DE24A00538922 /* SSToolbarResizeView.h */,
@@ -212,9 +219,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				227A70F70C7E33D50018FF35 /* drawer_toggle_alt.png */,
-				227A70F80C7E33D50018FF35 /* drawer_toggle.png */,
-				227A70ED0C7E2AA50018FF35 /* itunes_buttons.png */,
+				221351DF0C8A75E7004E47B6 /* Add.tiff */,
+				221351E00C8A75E7004E47B6 /* Get Info.tiff */,
+				221351E10C8A75E7004E47B6 /* LinkBack.tiff */,
+				221351E20C8A75E7004E47B6 /* Play.tiff */,
+				221351E30C8A75E7004E47B6 /* Remove.tiff */,
 				22EB0B740C79F5A8009E882A /* plus-8.png */,
 				223A62E90BC4908800DB54F9 /* Updates.tiff */,
 				223A62EA0BC4908800DB54F9 /* Colors.tiff */,
@@ -300,9 +309,11 @@
 				223A62EF0BC4908800DB54F9 /* Advanced.png in Resources */,
 				223A62F00BC4908800DB54F9 /* General.png in Resources */,
 				22EB0B750C79F5A8009E882A /* plus-8.png in Resources */,
-				227A70EE0C7E2AA60018FF35 /* itunes_buttons.png in Resources */,
-				227A70F90C7E33D50018FF35 /* drawer_toggle_alt.png in Resources */,
-				227A70FA0C7E33D50018FF35 /* drawer_toggle.png in Resources */,
+				221351E40C8A75E7004E47B6 /* Add.tiff in Resources */,
+				221351E50C8A75E7004E47B6 /* Get Info.tiff in Resources */,
+				221351E60C8A75E7004E47B6 /* LinkBack.tiff in Resources */,
+				221351E70C8A75E7004E47B6 /* Play.tiff in Resources */,
+				221351E80C8A75E7004E47B6 /* Remove.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +333,7 @@
 				228223050C7DD7E400A554BD /* NSBezierPath_SSAdditions.m in Sources */,
 				228223070C7DD7E400A554BD /* SSToolbarView.m in Sources */,
 				227109EA0C7DE24A00538922 /* SSToolbarResizeView.m in Sources */,
+				2213519D0C8A6B3C004E47B6 /* ReggyController_Toolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +375,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -393,7 +405,7 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
