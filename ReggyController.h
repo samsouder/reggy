@@ -6,12 +6,12 @@
 @interface ReggyController : NSObject
 {
 	IBOutlet NSWindow * mainWindow;
-    IBOutlet NSButton * matchAllButton;
+	IBOutlet NSButton * matchAllButton;
 	IBOutlet NSButton * matchCaseButton;
 	IBOutlet NSButton * matchMultiLineButton;
-    IBOutlet NSTextView * regexPatternField;
-    IBOutlet NSTextField * statusText;
-    IBOutlet NSTextView * testingStringField;
+	IBOutlet NSTextView * regexPatternField;
+	IBOutlet NSTextView * testingStringField;
+	IBOutlet NSTextField * statusText;
 	
 	BOOL matchAll;
 	BOOL matchCase;

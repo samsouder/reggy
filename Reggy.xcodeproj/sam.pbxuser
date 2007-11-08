@@ -10,12 +10,12 @@
 	};
 	2227DB9C0A65BA9F00AD0849 /* Reggy */ = {
 		isa = PBXExecutable;
-		activeArgIndex = 2147483647;
 		activeArgIndices = (
 		);
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -98,17 +98,12 @@
 	};
 	223A62D30BC48BBD00DB54F9 /* ReggyPrefsWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {682, 821}}";
-			sepNavSelRange = "{85, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {668, 822}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 221}";
 			sepNavVisRect = "{{0, 0}, {682, 821}}";
 			sepNavWindowFrame = "{{732, 73}, {727, 935}}";
 		};
-	};
-	22A616230A668B27004DAC52 /* XCBreakpointsBucket */ = {
-		isa = XCBreakpointsBucket;
-		name = "Project Breakpoints";
-		objects = (
-		);
 	};
 	22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -138,51 +133,27 @@
 			sepNavWindowFrame = "{{383, 39}, {727, 935}}";
 		};
 	};
-	22D9076C0BA1047400DF0931 /* sam.pbxuser */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text;
-		name = sam.pbxuser;
-		path = "/Users/sam/Misc Repo/reggy/trunk/Reggy.xcodeproj/sam.pbxuser";
-		sourceTree = "<absolute>";
-	};
-	22D907790BA1080600DF0931 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 22D9076C0BA1047400DF0931 /* sam.pbxuser */;
-		name = "sam.pbxuser: 339";
-		rLen = 0;
-		rLoc = 9826;
-		rType = 0;
-		vrLen = 828;
-		vrLoc = 0;
-	};
-	22D9077A0BA1080600DF0931 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 22D9076C0BA1047400DF0931 /* sam.pbxuser */;
-		name = "sam.pbxuser: 339";
-		rLen = 0;
-		rLoc = 9826;
-		rType = 0;
-		vrLen = 828;
-		vrLoc = 0;
-	};
 	22F93FAF0A65E6F8002339E4 /* ReggyController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 630}}";
-			sepNavSelRange = "{441, 14}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 690}}";
+			sepNavSelRange = "{466, 0}";
+			sepNavVisRange = "{0, 960}";
 			sepNavVisRect = "{{0, 7}, {831, 602}}";
-			sepNavWindowFrame = "{{351, 144}, {876, 716}}";
+			sepNavWindowFrame = "{{322, 169}, {876, 716}}";
 		};
 	};
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {781, 4214}}";
-			sepNavSelRange = "{1752, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {980, 4200}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{7274, 1623}";
 			sepNavVisRect = "{{0, 734}, {781, 739}}";
-			sepNavWindowFrame = "{{451, 175}, {826, 853}}";
+			sepNavWindowFrame = "{{451, 69}, {1039, 959}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 2227DB9C0A65BA9F00AD0849 /* Reggy */;
 		activeTarget = 8D1107260486CEB800E47090 /* Reggy */;
 		addToTargets = (
@@ -190,12 +161,39 @@
 		);
 		breakpoints = (
 		);
-		breakpointsGroup = 22A616230A668B27004DAC52 /* XCBreakpointsBucket */;
 		codeSenseManager = 2227DBAC0A65BAA600AD0849 /* Code sense */;
 		executables = (
 			2227DB9C0A65BA9F00AD0849 /* Reggy */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					362,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					360,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -247,8 +245,8 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					200,
-					292,
+					432,
+					60,
 					20,
 					48,
 					43,
@@ -264,14 +262,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 202964367;
-			PBXWorkspaceStateSaveDate = 202964367;
+			PBXPerProjectTemplateStateSaveDate = 216179851;
+			PBXWorkspaceStateSaveDate = 216179851;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
 			22AAF7C80A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C80A673A2A002FE5E5 /* PBXTextBookmark */;
-			22D907790BA1080600DF0931 /* PBXTextBookmark */ = 22D907790BA1080600DF0931 /* PBXTextBookmark */;
-			22D9077A0BA1080600DF0931 /* PBXTextBookmark */ = 22D9077A0BA1080600DF0931 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2227DBAB0A65BAA600AD0849 /* Source Control */;
 		userBuildSettings = {

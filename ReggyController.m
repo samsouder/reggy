@@ -12,6 +12,7 @@
 		@"YES", @"match_all",
 		@"NO", @"match_case",
 		@"YES", @"multiline",
+		@"YES", @"color_capture_groups",
 		[NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedHue:0.6 saturation:1.0 brightness:1.0 alpha:1.0]], @"match_color", nil];
 	
 	[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
@@ -164,62 +165,70 @@
 	[OGRegularExpression setDefaultSyntax:[self syntaxForPreference:[[NSUserDefaults standardUserDefaults] stringForKey:@"default_syntax"]]];
 	
 	NS_DURING
-		// options: OgreFindNotEmptyOption | OgreCaptureGroupOption | OgreIgnoreCaseOption | OgreMultilineOption?
-		unsigned int options;
-		options = OgreFindNotEmptyOption;
-		if ( ![self matchCase] )
-			options |= OgreIgnoreCaseOption;
-		if ( [self matchMultiLine] )
-			options |= OgreMultilineOption;
-		regEx = [OGRegularExpression regularExpressionWithString:[regexPatternField string] options:options];
+	// options: OgreFindNotEmptyOption | OgreCaptureGroupOption | OgreIgnoreCaseOption | OgreMultilineOption?
+	unsigned int options;
+	options = OgreFindNotEmptyOption;
+	if ( ![self matchCase] ) options |= OgreIgnoreCaseOption;
+	if ( [self matchMultiLine] ) options |= OgreMultilineOption;
+	regEx = [OGRegularExpression regularExpressionWithString:[regexPatternField string] options:options];
 	NS_HANDLER
-		[self setHideErrorImage:NO];
-		[statusText setStringValue:[NSString stringWithFormat:@"RegEx Error: %@", [localException reason]]];
-		return;
+	[self setHideErrorImage:NO];
+	[statusText setStringValue:[NSString stringWithFormat:@"RegEx Error: %@", [localException reason]]];
+	return;
 	NS_ENDHANDLER
 	
 	[self setHideErrorImage:YES];
 	
-	OGRegularExpressionMatch * match;
-	match = [regEx matchInString:[testingStringField string]];
+	OGRegularExpressionMatch * match = [regEx matchInString:[testingStringField string]];
 	if ( match == nil )
 	{
 		[statusText setStringValue:@"No Matches Found"];
 		return;
 	}
 	
+	NSMutableArray * matchedRanges = [[NSMutableArray alloc] init];
+	
 	NSEnumerator * enumerator = [regEx matchEnumeratorInString:[testingStringField string]];
-	
-	OGRegularExpressionMatch * lastMatch = nil;
-	unsigned int matchesRunThrough = 0;
-	
-	while ( (match = [enumerator nextObject]) != nil )
-	{
-		// Run through the matches to colorize
+	while ( (match = [enumerator nextObject]) != nil ) {
 		for ( unsigned int i = 0; i < [match count]; i++ )
-		{
-			// Get matched range
-			NSRange	matchRange = [match rangeOfSubstringAtIndex:i];
-			
-			// Add new color to matched range
-			//[[testingStringField textStorage] addAttribute:NSForegroundColorAttributeName value:lightBlueColor range:matchRange];
-			[[testingStringField textStorage] addAttribute:NSForegroundColorAttributeName
-												value:[NSUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"match_color"]]
-												range:matchRange];
-		}
+			[matchedRanges addObject:NSStringFromRange([match rangeOfSubstringAtIndex:i])];
 		
 		// If we don't want to show all matches, just exit here.
 		if ( ![self matchAll] ) break;
-		
-		matchesRunThrough++;
-		lastMatch = match;
 	}
 	
 	// Set the status text for how many matches we ran through
-	if ( matchesRunThrough > 1 )
-		[statusText setStringValue:[NSString stringWithFormat:@"%d Matches Found", matchesRunThrough]];
+	if ( [matchedRanges count] > 1 )
+		[statusText setStringValue:[NSString stringWithFormat:@"%d Matches Found", [matchedRanges count]]];
 	else
 		[statusText setStringValue:@"1 Match Found"];
+	
+	// NSLog(@"Matched Ranges: %@", [matchedRanges description]);
+	
+	// Add new color to matched ranges
+	bool countUp = YES;
+	float r,g,b,a;
+	[[NSUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"match_color"]] getRed:&r
+																												 green:&g
+																												  blue:&b
+																												 alpha:&a];
+	for ( unsigned int i = 0; i < [matchedRanges count]; i++ ) {
+		NSRange thisRange = NSRangeFromString([matchedRanges objectAtIndex:i]);
+		
+		// Generate new color from base color
+		if ( i > 0 && [[NSUserDefaults standardUserDefaults] boolForKey:@"color_capture_groups"] )
+		{
+			if ( r > 0.8 || g > 0.8 || b > 0.8 ) countUp = NO;
+			if ( r < 0.0 || g < 0.0 || b < 0.0 ) countUp = YES;
+			
+			if ( countUp ) { r += 0.2; g += 0.2; b += 0.2; } else { r -= 0.2; g -= 0.2; b -= 0.2; }
+		}
+		// NSLog(@"r:%f g:%f b:%f", r, g, b);
+		
+		[[testingStringField textStorage] addAttribute:NSForegroundColorAttributeName value:[NSColor colorWithCalibratedRed:r green:g blue:b alpha:a] range:thisRange];
+	}
+	
+	[matchedRanges release];
 }
 
 #pragma mark -
