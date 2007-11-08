@@ -37,8 +37,10 @@
 - (NSString *) testString;
 - (void) setTestString:(NSString *)newString;
 
-- (IBAction) openPreferencesWindow:(id)sender;
 - (IBAction) match:(id)sender;
+- (IBAction) pasteAsRegEx:(id)sender;
+- (IBAction) pasteAsTestString:(id)sender;
+- (IBAction) openRegularExpressionHelpInBrowser:(id)sender;
 
 - (int) syntaxForPreference:(NSString *)preference;
 @end

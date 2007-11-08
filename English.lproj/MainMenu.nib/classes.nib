@@ -1,27 +1,104 @@
-{
-    IBClasses = (
-        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
-        {
-            ACTIONS = {match = id; openPreferencesWindow = id; }; 
-            CLASS = ReggyController; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {
-                mainWindow = NSWindow; 
-                matchAllButton = NSButton; 
-                matchCaseButton = NSButton; 
-                matchMultiLineButton = NSButton; 
-                regexPatternField = NSTextView; 
-                statusText = NSTextField; 
-                testingStringField = NSTextView; 
-            }; 
-            SUPERCLASS = NSObject; 
-        }, 
-        {
-            ACTIONS = {checkForUpdates = id; }; 
-            CLASS = SUUpdater; 
-            LANGUAGE = ObjC; 
-            SUPERCLASS = NSObject; 
-        }
-    ); 
-    IBVersion = 1; 
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>match</key>
+				<string>id</string>
+				<key>openPreferencesWindow</key>
+				<string>id</string>
+				<key>openRegularExpressionHelpInBrowser</key>
+				<string>id</string>
+				<key>pasteAsRegEx</key>
+				<string>id</string>
+				<key>pasteAsTestString</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>ReggyController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>mainWindow</key>
+				<string>NSWindow</string>
+				<key>matchAllButton</key>
+				<string>NSButton</string>
+				<key>matchCaseButton</key>
+				<string>NSButton</string>
+				<key>matchMultiLineButton</key>
+				<string>NSButton</string>
+				<key>regexPatternField</key>
+				<string>NSTextView</string>
+				<key>statusText</key>
+				<string>NSTextField</string>
+				<key>testingStringField</key>
+				<string>NSTextView</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>RBSplitView</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>delegate</key>
+				<string>id</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>RBSplitSubview</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>RBSplitSubview</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSView</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>didAdjustSubviews</key>
+				<string>RBSplitView</string>
+				<key>willAdjustSubviews</key>
+				<string>RBSplitView</string>
+			</dict>
+			<key>CLASS</key>
+			<string>NSObject</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>checkForUpdates</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>SUUpdater</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>

@@ -1,5 +1,4 @@
 #import "ReggyController.h"
-#import "ReggyPrefsWindowController.h"
 
 @implementation ReggyController
 
@@ -13,6 +12,8 @@
 		@"NO", @"match_case",
 		@"YES", @"multiline",
 		@"YES", @"color_capture_groups",
+		@"NO", @"paste_as_regex_on_startup",
+		@"NO", @"paste_as_teststring_on_startup",
 		[NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedHue:0.6 saturation:1.0 brightness:1.0 alpha:1.0]], @"match_color", nil];
 	
 	[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
@@ -40,11 +41,26 @@
 {
 	[mainWindow setBackgroundColor:[NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
 	
-	[regexPatternField setToolTip:@"Regular Expression"];
-	[testingStringField setToolTip:@"Testing String"];
+	if ( [[NSUserDefaults standardUserDefaults] boolForKey:@"paste_as_regex_on_startup"] )
+	{
+		[self pasteAsRegEx:self];
+	}
+	else
+	{
+		[regexPatternField setToolTip:@"Regular Expression"];
+	}
+	
+	if ( [[NSUserDefaults standardUserDefaults] boolForKey:@"paste_as_teststring_on_startup"] )
+	{
+		[self pasteAsTestString:self];
+	}
+	else
+	{
+		[testingStringField setToolTip:@"Testing String"];
+	}
 	
 	// Call the match: action for the first time
-	[self performSelector:@selector(match:)];
+	[self match:self];
 	
 	// Select all the text in the regexPattern NSTextView so it's easy to just start typing
 	[regexPatternField selectAll:self];
@@ -142,11 +158,6 @@
 
 #pragma mark -
 #pragma mark Actions
-- (IBAction) openPreferencesWindow:(id)sender
-{
-	[[ReggyPrefsWindowController sharedPrefsWindowController] showWindow:nil];
-}
-
 - (IBAction) match:(id)sender
 {
 	// NSColor * lightBlueColor = [NSColor colorWithCalibratedRed:0.5 green:.5 blue:1.0 alpha:1.0];
@@ -230,6 +241,24 @@
 	
 	[matchedRanges release];
 }
+
+- (IBAction) pasteAsRegEx:(id)sender
+{
+	[regexPatternField selectAll:self];
+	[regexPatternField pasteAsPlainText:sender];
+}
+
+- (IBAction) pasteAsTestString:(id)sender
+{
+	[testingStringField selectAll:self];
+	[testingStringField pasteAsPlainText:sender];
+}
+
+- (IBAction) openRegularExpressionHelpInBrowser:(id)sender
+{
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://en.wikipedia.org/wiki/Regex#Syntax"]];
+}
+
 
 #pragma mark -
 #pragma mark Utilities
