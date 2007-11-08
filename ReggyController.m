@@ -11,7 +11,7 @@
 		@"YES", @"match_all",
 		@"NO", @"match_case",
 		@"YES", @"multiline",
-		@"YES", @"color_capture_groups",
+		@"YES", @"color_submatches",
 		@"NO", @"paste_as_regex_on_startup",
 		@"NO", @"paste_as_teststring_on_startup",
 		[NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedHue:0.6 saturation:1.0 brightness:1.0 alpha:1.0]], @"match_color", nil];
@@ -227,7 +227,7 @@
 		NSRange thisRange = NSRangeFromString([matchedRanges objectAtIndex:i]);
 		
 		// Generate new color from base color
-		if ( i > 0 && [[NSUserDefaults standardUserDefaults] boolForKey:@"color_capture_groups"] )
+		if ( i > 0 && [[NSUserDefaults standardUserDefaults] boolForKey:@"color_submatches"] )
 		{
 			if ( r > 0.8 || g > 0.8 || b > 0.8 ) countUp = NO;
 			if ( r < 0.0 || g < 0.0 || b < 0.0 ) countUp = YES;

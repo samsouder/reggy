@@ -388,9 +388,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2207B6540CE2AC9F00CE88EC</string>
+				<string>22033FE40CE2E3C600EDD2E6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2207B6550CE2AC9F00CE88EC</string>
+				<string>22033FE50CE2E3C600EDD2E6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -522,10 +522,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2207B7060CE2D1D700CE88EC</string>
-		<string>2207B6830CE2AFF000CE88EC</string>
-		<string>2207B6840CE2AFF000CE88EC</string>
-		<string>2207B6850CE2AFF000CE88EC</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>2207B6010CE2A5C000CE88EC</string>
@@ -553,7 +549,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>&lt;No Editor&gt;</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -609,7 +605,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2207B6010CE2A5C000CE88EC</string>
-				<string>2207B6530CE2AC9700CE88EC</string>
+				<string>22033FE60CE2E3C600EDD2E6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -729,13 +725,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>2207B65E0CE2ACD900CE88EC</string>
+				<string>22033FE70CE2E3C600EDD2E6</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>2207B65F0CE2ACD900CE88EC</string>
-				<string>2207B6600CE2ACD900CE88EC</string>
-				<string>2207B6610CE2ACD900CE88EC</string>
-				<string>2207B6620CE2ACD900CE88EC</string>
-				<string>2207B6630CE2ACD900CE88EC</string>
+				<string>22033FE80CE2E3C600EDD2E6</string>
+				<string>22033FE90CE2E3C600EDD2E6</string>
+				<string>22033FEA0CE2E3C600EDD2E6</string>
+				<string>22033FEB0CE2E3C600EDD2E6</string>
+				<string>22033FEC0CE2E3C600EDD2E6</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -866,8 +862,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -903,7 +897,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>2207B6640CE2ACD900CE88EC</string>
+				<string>22033FED0CE2E3C600EDD2E6</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

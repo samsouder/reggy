@@ -120,9 +120,9 @@
 	};
 	22F93FB00A65E6F8002339E4 /* ReggyController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {817, 5190}}";
-			sepNavSelRange = "{1553, 0}";
-			sepNavVisRange = "{1251, 838}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 4905}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 1072}";
 			sepNavVisRect = "{{0, 734}, {781, 739}}";
 			sepNavWindowFrame = "{{367, 174}, {876, 716}}";
 		};
@@ -238,8 +238,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 216181417;
-			PBXWorkspaceStateSaveDate = 216181417;
+			PBXPerProjectTemplateStateSaveDate = 216194654;
+			PBXWorkspaceStateSaveDate = 216194654;
 		};
 		perUserProjectItems = {
 			22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */ = 22AAF7C60A673A2A002FE5E5 /* PBXTextBookmark */;
