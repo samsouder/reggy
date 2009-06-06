@@ -1,0 +1,11 @@
+# Reggy #
+
+Reggy is a small OS X cocoa/objective-c application to very quickly visualize what a given regular expression will match given a test string. It will also tell you if you have errors in your regular expression. Reggy's aim is to be simple, straightforward and helpful, while still being a good-looking piece of Mac software.
+
+*This project was converted from the old [Google Code project](http://code.google.com/p/reggy/). Please use the issue tracker built into Github to track new features or bugs.*
+
+Reggy lives at [http://reggyapp.com/](http://reggyapp.com/) and is also available at [MacUpdate](http://www.macupdate.com/info.php/id/24078) and [Apple Downloads](http://www.apple.com/downloads/macosx/development_tools/reggy.html).
+
+## Development Notes ##
+
+**This master is an experiment at developing Reggy 2.0 from scratch, in the open. Eventually, 2.0 will be stable here on master and further development will be branched out, but be warned for now, master is going to be experimental for a bit.**
