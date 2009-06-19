@@ -10,10 +10,13 @@
 
 @interface BWSheetController : NSObject
 {
-	IBOutlet NSWindow *sheet;
-	IBOutlet NSWindow *parentWindow;
-	IBOutlet id delegate;
+	NSWindow *sheet;
+	NSWindow *parentWindow;
+	id delegate;
 }
+
+@property (nonatomic, retain) IBOutlet NSWindow *sheet, *parentWindow;
+@property (nonatomic, retain) IBOutlet id delegate;
 
 - (IBAction)openSheet:(id)sender;
 - (IBAction)closeSheet:(id)sender;

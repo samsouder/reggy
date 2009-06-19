@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "BWAnchoredButtonCell.h"
 
 @interface BWAnchoredButton : NSButton 
 {

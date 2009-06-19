@@ -11,7 +11,7 @@
 
 @interface BWTransparentButtonCell : NSButtonCell 
 {
-	NSColor *interiorColor;
+
 }
 
 @end

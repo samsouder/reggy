@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "BWTransparentPopUpButtonCell.h"
 
 @interface BWTransparentPopUpButton : NSPopUpButton 
 {

@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "BWUnanchoredButtonCell.h"
 
 @interface BWUnanchoredButton : NSButton 
 {

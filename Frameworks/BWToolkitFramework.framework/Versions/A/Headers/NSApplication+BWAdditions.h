@@ -1,5 +1,5 @@
 //
-//  BWTransparentPopUpButtonCell.h
+//  NSApplication+BWAdditions.h
 //  BWToolkit
 //
 //  Created by Brandon Walkin (www.brandonwalkin.com)
@@ -8,9 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface BWTransparentPopUpButtonCell : NSPopUpButtonCell 
-{
+@interface NSApplication (BWAdditions) 
 
-}
++ (BOOL)isOnLeopard;
 
 @end
