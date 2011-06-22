@@ -12,8 +12,29 @@
 		1E336B320FDA56A80047CC76 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E336B2F0FDA56A80047CC76 /* MainController.m */; };
 		1E336B4B0FDA589A0047CC76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E336B470FDA589A0047CC76 /* InfoPlist.strings */; };
 		1E336B4C0FDA589A0047CC76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E336B490FDA589A0047CC76 /* MainMenu.xib */; };
+		1E96A52F105B66FE003A3597 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E96A52E105B66FE003A3597 /* BWToolkitFramework.framework */; };
+		1E96A535105B674A003A3597 /* OgreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E96A534105B674A003A3597 /* OgreKit.framework */; };
+		1E96A53A105B6756003A3597 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E96A539105B6756003A3597 /* Sparkle.framework */; };
+		1E96A5A1105B67B7003A3597 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E96A52E105B66FE003A3597 /* BWToolkitFramework.framework */; };
+		1E96A5A2105B67B7003A3597 /* OgreKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E96A534105B674A003A3597 /* OgreKit.framework */; };
+		1E96A5A3105B67B7003A3597 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E96A539105B6756003A3597 /* Sparkle.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E96A540105B67AB003A3597 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1E96A5A1105B67B7003A3597 /* BWToolkitFramework.framework in CopyFiles */,
+				1E96A5A2105B67B7003A3597 /* OgreKit.framework in CopyFiles */,
+				1E96A5A3105B67B7003A3597 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -25,6 +46,9 @@
 		1E336B3C0FDA57C60047CC76 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		1E336B480FDA589A0047CC76 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E336B4A0FDA589A0047CC76 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1E96A52E105B66FE003A3597 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = Frameworks/BWToolkitFramework.framework; sourceTree = "<group>"; };
+		1E96A534105B674A003A3597 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreKit.framework; path = Frameworks/OgreKit.framework; sourceTree = "<group>"; };
+		1E96A539105B6756003A3597 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -37,6 +61,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				1E96A52F105B66FE003A3597 /* BWToolkitFramework.framework in Frameworks */,
+				1E96A535105B674A003A3597 /* OgreKit.framework in Frameworks */,
+				1E96A53A105B6756003A3597 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				1E96A52E105B66FE003A3597 /* BWToolkitFramework.framework */,
+				1E96A534105B674A003A3597 /* OgreKit.framework */,
+				1E96A539105B6756003A3597 /* Sparkle.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -161,6 +191,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				1E96A540105B67AB003A3597 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -237,7 +268,12 @@
 		26FC0A850875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -248,6 +284,7 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Reggy;
+				SDKROOT = macosx10.5;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,7 +292,12 @@
 		26FC0A860875C7B200E6366F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -263,6 +305,7 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Reggy;
+				SDKROOT = macosx10.5;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
